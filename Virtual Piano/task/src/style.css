@@ -1,0 +1,60 @@
+body {
+    background-color: orange;
+    font-family: 'Krona One',
+    sans-serif;
+}
+
+.white-keys {
+    background-color: white;
+    /* display: flex;
+    height: 200px;
+    width: 60px;
+    border: 1px solid red;
+    text-align: center;
+    margin-left: 0;
+    font-family: 'Krona One',
+    sans-serif; */
+}
+
+.black-keys {
+    background-color: black;
+    color: white;
+    /* left: 50px;
+    top: 50px;
+    position: absolute;
+    z-index: 1;
+    width: 40px;
+    height: 100px;
+    display: flex; */
+}
+
+kbd {
+    display: inline-block;
+    height: 200px;
+    width: 60px;
+    border: 1px solid red;
+    text-align: center;
+    margin-left: 0;
+    font-family: 'Krona One',
+    sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-e {
+    left: 50px;
+    top: 50px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 180px;
+
+}
