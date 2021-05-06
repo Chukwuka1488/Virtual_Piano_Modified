@@ -3,7 +3,7 @@
 document.addEventListener("keydown", function (event) {
     if (event.code === "KeyA") {
         let audio = document.createElement("audio");
-        audio.src = "/Users/haykay14/Desktop/white_keys/A.mp3";
+        audio.src = "Virtual%20Piano/task/src/Audio/do.mp3";
         audio.play();
     } else if (event.code === "KeyS") {
         let audio = document.createElement("audio");
@@ -50,6 +50,8 @@ document.addEventListener("keydown", function (event) {
         audio.src = "/Users/haykay14/Desktop/white_keys/U.mp3";
         audio.play();
     } else {
-        console.log("Error! Please press the right key as seen on the keyboard");
+        console.log(
+            "Error! Please press the right key as seen on the keyboard"
+        );
     }
 });
